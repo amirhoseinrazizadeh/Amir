@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+    --color-darkblue: #07101d;
+    --color-030768: #030768;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+	font-family:"iranyekan";
+}
+
+.iranyekan-number{
+	font-family: "iranyekan-number";
+}
+
+@font-face {
+	font-family: "iranyekan";
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/iranyekanwebbold.eot');
+	src: url('../fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff/iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/iranyekanwebbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "iranyekan";
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/eot/iranyekanwebthin.eot');
+	src: url('../fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff/iranyekanwebthin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/iranyekanwebthin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "iranyekan";
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/eot/iranyekanweblight.eot');
+	src: url('../fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/iranyekanweblight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "iranyekan";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/iranyekanwebregular.eot');
+	src: url('../fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "iranyekan";
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/iranyekanwebmedium.eot');
+	src: url('../fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff/iranyekanwebmedium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "iranyekan";
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/eot/iranyekanwebextrabold.eot');
+	src: url('../fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff/iranyekanwebextrabold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "iranyekan";
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/eot/iranyekanwebblack.eot');
+	src: url('../fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff/iranyekanwebblack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/iranyekanwebblack.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "iranyekan";
+	font-style: normal;
+	font-weight: 950;
+	src: url('../fonts/eot/iranyekanwebextrablack.eot');
+	src: url('../fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff/iranyekanwebextrablack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "iranyekan-number";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/Woff/KalamehWeb\(FaNum\)-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: "iranyekan-number";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Woff/KalamehWeb\(FaNum\)-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "iranyekan-number";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Woff/KalamehWeb\(FaNum\)-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Gilroy_Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Woff/Gilroy-Bold.woff") format("woff");
+}
+
+.W_70 {
+	width: 70%;
+}
+.bg_1e3ab9{
+	background-color: var(--color-030768);
+}
+
+.text_030768{
+	color: var(--color-030768);
+}
+.title_main_header{
+    font-size: 3rem;
+}
+
+.margin_top{
+	margin-top: 120px;
+}
+
+.bg_logo{
+	background-color: rgba(125, 125, 125, 0.20);
+	backdrop-filter: blur(15px);
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+.bg_gradient_main_site{
+    background-image: linear-gradient(to right,#030768,#283593);
+}
+.margin_right_mobail_btn{
+	margin-right: 5.5rem;
+}
+
+.Ellipse_1{
+	width: 552px;
+	height: 591px;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 50%;
+	left: 70%;
+	z-index: -1;
+	filter: blur(70px);
+	background: radial-gradient(62.37% 62.37% at 50.00% 50.00%, rgba(26, 35, 126,0.10) 28.57%, rgba(7, 15, 28, 0.00) 100%);
+	-webkit-filter: blur(70px);
+}
+
+.Ellipse_2{
+	width: 552px;
+	height: 552px;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	filter: blur(70px);
+	background: radial-gradient(62.37% 62.37% at 50.00% 50.00%, rgba(255, 214, 0,0.08) 28.57%, rgba(7, 15, 28, 0.00) 100%);
+	-webkit-filter: blur(70px);
+}
+
+.caption_box_3d{
+	background-color: #F5F5F7;
+	height: 80.81px;
+	border-radius: 28.97px;
+	-webkit-border-radius: 28.97px;
+	-moz-border-radius: 28.97px;
+	-ms-border-radius: 28.97px;
+	-o-border-radius: 28.97px;
+}
+
+.font_size{
+	font-weight: 800;
+	font-size: 14px;
+}
+
+.img_shadow:hover{
+	filter: drop-shadow(5px 15px 35px rgba(255, 214, 0, 0.15));
+	-webkit-filter: drop-shadow(5px 15px 35px rgba(255, 214, 0, 0.15));
+}
+.transition{
+	transition: all 850ms ease-in-out 100ms !important;
+	-webkit-transition: all 850ms ease-in-out 100ms !important;
+	-moz-transition: all 850ms ease-in-out 100ms !important;
+	-ms-transition: all 850ms ease-in-out 100ms !important;
+	-o-transition: all 850ms ease-in-out 100ms !important;
+}
+.button_shadow:hover{
+	transform: scale(0.95);
+	transition: all 250ms ease-in 50ms;
+	filter: drop-shadow(5px 15px 15px rgba(26, 35, 126, 0.12));
+	-webkit-filter: drop-shadow(5px 15px 15px rgba(26, 35, 126, 0.120));
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	-o-transform: scale(0.95);
+	-webkit-transition: all 250ms ease-in 50ms;
+	-moz-transition: all 250ms ease-in 50ms;
+	-ms-transition: all 250ms ease-in 50ms;
+	-o-transition: all 250ms ease-in 50ms;
+}
+
+.box_3d_shadow:hover{
+	transform: scale(0.95);
+	transition: all 250ms ease-in 50ms;
+	filter: drop-shadow(5px 15px 15px rgba(189, 189, 189, 0.12));
+	-webkit-filter: drop-shadow(5px 15px 15px rgba(189, 189, 189, 0.12));
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	-o-transform: scale(0.95);
+	-webkit-transition: all 250ms ease-in 50ms;
+	-moz-transition: all 250ms ease-in 50ms;
+	-ms-transition: all 250ms ease-in 50ms;
+	-o-transition: all 250ms ease-in 50ms;
+}
+.form_mashavere{
+	width: 100%;
+	height: 500px;
+	background-color: #202544;
+	border-radius: 26px;
+	-webkit-border-radius: 26px;
+	-moz-border-radius: 26px;
+	-ms-border-radius: 26px;
+	-o-border-radius: 26px;
+}
+
+@media screen and (max-width:991.98px){
+
+}
+
+@media screen and (max-width:600.98px){
+	.shoar_font_mobail{
+		font-size: 20px !important;
+	}
+
+	.form_mashavere{
+		width: 100%;
+		height: 700px;
+		background-color: #202544;
+		border-radius: 26px;
+		-webkit-border-radius: 26px;
+		-moz-border-radius: 26px;
+		-ms-border-radius: 26px;
+		-o-border-radius: 26px;
+	}
+}

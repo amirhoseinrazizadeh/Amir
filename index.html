@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طراحی وب سایت با امیر</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+    <!-- منوها -->
+    <header>
+        <nav class="navbar navbar-expand-lg mt-3">
+            <div class="container-fluid container-xl">
+                <!-- دکمه منو حالت گوشی -->
+                <button class="navbar-toggler border-0 rounded-5 align-items-center gap-2 p-2 text-black transition" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="fs-5">دسته بندی</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25px" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
+                    </svg>                                       
+                </button>
+                <!-- لوگو -->
+                <a href="#" class="navbar-brand me-lg-5 bg_logo">
+                    <img src="./img/logo.png" alt="" width="44px">
+                </a>
+                <!-- ورود ثبت نام درگوشی -->
+                <div class="d-lg-none">
+                    <a href="#" class="me-3 text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25px" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+                        </svg>                             
+                    </a>
+                </div>
+                <!-- دسته بندی ها -->
+                <div class="collapse navbar-collapse justify-content-lg-between rounded p-2" id="navbarNav">
+                    <ul class="navbar-nav w_70 gap-2 gap-lg-5 mt-2">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center gap-2 fs-5 fw-light">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                                    <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                                  </svg>                                  
+                                <span >صفحه اصلی</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center gap-2 fs-5 fw-light">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 0 1 .75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 0 1 9.75 22.5a.75.75 0 0 1-.75-.75v-4.131A15.838 15.838 0 0 1 6.382 15H2.25a.75.75 0 0 1-.75-.75 6.75 6.75 0 0 1 7.815-6.666ZM15 6.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z" clip-rule="evenodd" />
+                                    <path d="M5.26 17.242a.75.75 0 1 0-.897-1.203 5.243 5.243 0 0 0-2.05 5.022.75.75 0 0 0 .625.627 5.243 5.243 0 0 0 5.022-2.051.75.75 0 1 0-1.202-.897 3.744 3.744 0 0 1-3.008 1.51c0-1.23.592-2.323 1.51-3.008Z" />
+                                  </svg>                                                                                                   
+                                <span >درباره من</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center gap-2 fs-5 fw-light">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M12.963 2.286a.75.75 0 0 0-1.071-.136 9.742 9.742 0 0 0-3.539 6.176 7.547 7.547 0 0 1-1.705-1.715.75.75 0 0 0-1.152-.082A9 9 0 1 0 15.68 4.534a7.46 7.46 0 0 1-2.717-2.248ZM15.75 14.25a3.75 3.75 0 1 1-7.313-1.172c.628.465 1.35.81 2.133 1a5.99 5.99 0 0 1 1.925-3.546 3.75 3.75 0 0 1 3.255 3.718Z" clip-rule="evenodd" />
+                                  </svg>                                                                                                                                    
+                                <span >نمومه کار</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-flex align-items-center gap-2 fs-5 fw-light">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25px" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clip-rule="evenodd" />
+                                  </svg>                                                                                                                                                                     
+                                <span >تماس با ما</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- گزینه ورود و ثبت نام -->
+                    <div>
+                        <a href="#" class="button_shadow bg_1e3ab9 text-light rounded-pill p-3 d-none d-lg-inline-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25px" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+                            </svg> 
+                            ورود / ثبت نام
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid container-xl mt-5">
+            <div class="row">
+                <div class="col-lg-7 col-12">
+                    <div>
+                        <div class="fw-light fs-4 text-center text-lg-start shoar_font_mobail">
+                            <img src="./img/1.png" width="30px" alt="">
+                            بهترین خدمات در اختیار شما خواهد بود
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <h1 class="fw-bold title_main_header text-center text-lg-start my-lg-5">
+                                <span>
+                                    ساخت و
+                                </span>
+                                <span class="text_030768">
+                                    طراحی وب سایت
+                                </span>
+                            </h1>
+                            <img src="./img/3.png" width="20px" height="44px" class="mt-5" alt="">
+                        </div>
+                        <div class="d-flex gap-3">
+                            <a href="tel:+989023030892"
+                                class="button_shadow w-25 py-3 d-none d-lg-block text-black fw-light fs-5 border border-1 border-dark text-center rounded-pill">
+                                تماس با مشاور
+                            </a>
+                            <a href="#"
+                                class="button_shadow w-50 py-3 d-none d-lg-block bg_gradient_main_site text-light fw-bold fs-4 text-center rounded-pill">
+                                درخواست ثبت پروژه
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column align-content-center justify-content-center gap-3 margin_right_mobail_btn">
+                            <a href="#"
+                                class="button_shadow w-75 py-3  d-lg-none bg_gradient_main_site text-light fw-bold fs-6 text-center rounded-3 d-flex align-items-center justify-content-center">
+                                درخواست ثبت پروژه
+                            </a>
+                            <a href="tel:+989023030892"
+                                class="button_shadow w-75 py-3  d-lg-none  text-black fw-light fs-5 text-center rounded-3 border border-1 border-dark d-flex align-items-center justify-content-center">
+                                تماس با مشاور
+                            </a>
+                        </div>
+                        <div class="main_img_header d-lg-none ">
+                            <img src="./img/Webdesign.png" class="w-100" alt="">
+                        </div>
+                        <p class="text-secondary fw-medium fs-5 text-center text-lg-start mt-lg-5">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 d-none d-lg-block img_shadow">
+                    <img src="img/Webdesign.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="Ellipse_1"></div>
+        <div class="Ellipse_2 overflow-hidden"></div>
+    </header>
+    <!-- محتوا -->
+    <Main>
+        <!-- معرفی ها -->
+        <div class="container-fluid container-xl margin_top">
+            <div class="row row-gap-5">
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="box_3d">
+                        <div class="box_3d_shadow caption_box_3d d-flex flex-column align-items-center justify-content-end gap-2">
+                            <img src="./img/wallet.png" alt="">
+                            <span class="mb-3 font_size">قیمت منصفانه</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="box_3d">
+                        <div class="box_3d_shadow caption_box_3d d-flex flex-column align-items-center justify-content-end gap-2">
+                            <img src="./img/banknotes.png" alt="">
+                            <span class="mb-3 font_size">تسویه مرحله به مرحله </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="box_3d">
+                        <div class="box_3d_shadow caption_box_3d d-flex flex-column align-items-center justify-content-end gap-2">
+                            <img src="./img/image 7.png" alt="">
+                            <span class="mb-3 font_size">ارائه‌ی ابزارهای به روز</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="box_3d">
+                        <div class="box_3d_shadow caption_box_3d d-flex flex-column align-items-center justify-content-end gap-2">
+                            <img src="./img/heart-rate-monitor-3d.png" alt="">
+                            <span class="mb-3 font_size">پشتیانی 24 ساعته</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="box_3d">
+                        <div class="box_3d_shadow caption_box_3d d-flex flex-column align-items-center justify-content-end gap-2">
+                            <img src="./img/3d-shield-protection.png" alt="">
+                            <span class="mb-3 font_size">حفاظت از وب سایت شما</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="box_3d">
+                        <div class="box_3d_shadow caption_box_3d d-flex flex-column align-items-center justify-content-end gap-2">
+                            <img src="./img/Rectangle.png" alt="">
+                            <span class="mb-3 font_size">تعهد و خلاقیت</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- فرم در خواست مشاوره -->
+         <div class="container-fluid container-xl margin_top mb-5">
+            <div class="row">
+                <div class="col-lg-5 col-12">
+                    <div class="d-flex flex-column align-items-lg-start">
+                        <div class="d-flex justify-content-center">
+                            <img src="./img/1.png" alt="" height="34px">
+                            <div class="d-flex flex-column">
+                                <p class="fs-4 ps-1">مشاوره رایگان با<span class="fw-bold fs-3 ps-2 text_030768">امیرحسین رضی زاده</span></p>
+                                <img src="./img/Vector 3.png" alt="" width="50px" class="ms-5">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column align-items-baseline mt-lg-4 fw-light">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                            </p>
+                            <img src="./img/Vector 2988.png" alt="" class="d-none d-lg-block">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-12">
+                    <div class="form_mashavere ms-lg-5">
+                        <div class="d-flex p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" style="color: white;" class="mt-2" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                <path fill-rule="evenodd" d="M5.478 5.559A1.5 1.5 0 0 1 6.912 4.5H9A.75.75 0 0 0 9 3H6.912a3 3 0 0 0-2.868 2.118l-2.411 7.838a3 3 0 0 0-.133.882V18a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0 0 17.088 3H15a.75.75 0 0 0 0 1.5h2.088a1.5 1.5 0 0 1 1.434 1.059l2.213 7.191H17.89a3 3 0 0 0-2.684 1.658l-.256.513a1.5 1.5 0 0 1-1.342.829h-3.218a1.5 1.5 0 0 1-1.342-.83l-.256-.512a3 3 0 0 0-2.684-1.658H3.265l2.213-7.191Z" clip-rule="evenodd" />
+                                <path fill-rule="evenodd" d="M12 2.25a.75.75 0 0 1 .75.75v6.44l1.72-1.72a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 0 1 1.06-1.06l1.72 1.72V3a.75.75 0 0 1 .75-.75Z" clip-rule="evenodd" />
+                              </svg>                              
+                            <p class="fw-lighter fs-4 text-white ms-2">فرم درخواست مشاوره و ثبت پروژه</p>
+                        </div>
+                        <div class="ms-4 me-5">
+                            <p class="text-white fw-lighter fs-6">این فیلدها رو تکمیل کنید و برام بفرستید تا توی سریع‌ترین زمان ممکن، برای راهنمایی با شما تماس بگیرم!</p>
+                        </div>
+                        <form action="" class="row row-gap-4 p-3 mx-1">
+                            <div class="col-12 col-sm-6">
+                                <div>
+                                  <label for="" class="form-label text-white">نام و نام خانوادگی</label>
+                                  <input type="text" placeholder="نام خود را وارد کنید ..." class="form-control" name="" id="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div>
+                                  <label for="" class="form-label text-white">شماره تماس</label>
+                                  <input type="text" placeholder="شماره تماس خود را وارد کنید ..." class="form-control" name="" id="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="">
+                                  <label for="" class="form-label text-white">ایمیل</label>
+                                  <input type="email" placeholder=example@gmail.com" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="">
+                                  <label for="" class="form-label text-white">نوع وب سایت</label>
+                                  <select class="form-select text-secondary">
+                                    <option value="">وبلاگ</option>
+                                    <option value="">خبری</option>
+                                    <option value="" selected>فروشگاهی</option>
+                                    <option value="">سایر...</option>
+                                  </select>
+                                </div>
+                            </div>
+                            <div class="text-center text-lg-end mt-5">
+                                <button class="btn btn-warning">
+                                    <span class="fw-lighter text-white">درخواست مشاوره رایگان</span>
+                                    <img src="./img/arrow-left.png" alt="" width="16px">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </Main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
